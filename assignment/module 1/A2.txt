@@ -1,0 +1,65 @@
+A) What are the three main layers of software architecture? Write one line about each.
+
+there are the three main layers of software architecture. 
+
+1. presentation layer :- The presentation layer, also called the UI layer, handles the interactions that users have with the software. 
+
+2. Application layer :-  The application layer handles the main programs of the architecture. It includes the 
+code definitions and most basic functions of the developed application.
+
+3. Database layer:- The database layer is where the system stores all the data. It's the lowest tier in the software architecture and houses not only data but indexes and tables as well.
+
+
+
+B) Define client and server in your own words with one real-life example.
+Client: A client is a device or application that requests a service, data, or information from another computer.
+
+Server: A server is a computer or system that provides services, data, or resources to clients when requested.
+
+Real-life example:
+When you open any Ai app on your laptop or phone, your device acts as the client and sends a request to Ai's server. The server processes the request and sends back the video, which is then displayed on your screen.
+
+
+
+C) Write 2 differences each between desktop apps, web apps, and mobile apps.
+
+1.Desktop Apps vs Web Apps 
+
+a) Installation
+Desktop apps need to be installed on a computer.
+Web apps run directly in a web browser and usually do not require installation.
+
+b) Internet Requirement
+Desktop apps can often work without an internet connection.
+Web apps generally require an internet connection to function.
+
+
+2.Web Apps vs Mobile Apps 
+
+a) Platform
+Web apps are accessed through a browser.
+Mobile apps are installed on smartphones or tablets.
+
+b) Device Features
+Web apps have limited access to device hardware.
+Mobile apps can easily use device features such as the camera, GPS, and notifications.
+
+
+3.Desktop Apps vs Mobile Apps 
+a) Device Used
+Desktop apps are designed for computers and laptops.
+Mobile apps are designed for smartphones and tablets.
+
+b) User Interface
+Desktop apps are optimized for keyboard and mouse input.
+Mobile apps are optimized for touch-screen interaction.
+
+
+
+D) Name any 3 databases and mention whether each is SQL or NoSQL.
+
+1. MySQL – SQL database used for storing structured data in tables.
+
+2. PostgreSQL – SQL database known for reliability and advanced features.
+
+3. MongoDB – NoSQL database that stores data in flexible JSON-like documents.
