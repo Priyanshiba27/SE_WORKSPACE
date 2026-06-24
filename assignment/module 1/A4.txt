@@ -1,0 +1,18 @@
+A) List all 6 phases of SDLC in order with one line about each.
+
+The 6 phases of the Software Development Life Cycle (SDLC) in order are:
+
+1. Requirement Gathering – Collect and understand the needs and expectations of the client or users.
+
+2. Analysis – Analyze the gathered requirements to determine feasibility, scope, and system requirements.
+
+3. Designing – Create the system architecture, database design, and user interface layout.
+
+4. Implementation – Write the actual code and build the software according to the design.
+
+5. Testing – Check the software for bugs, errors, and performance issues to ensure it works correctly.
+
+6. Maintenance – Update, fix, and improve the software after deployment based on user feedback and changing requirements. 
+
+
+
