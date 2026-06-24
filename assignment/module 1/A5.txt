@@ -21,12 +21,26 @@ C) Create a new GitHub repository, push any small text file from your local syst
 
 https://github.com/Priyanshiba27/Priy
 
+
+
+
 D)What is the difference between a Fork and a Pull Request? Answer in 2 lines
 
 A Fork is a personal copy of someone else's repository in your own GitHub account, allowing you to make changes independently.
 
 A Pull Request (PR) is a request to merge your changes from a fork or branch into the original repository.
 
+
+
 E) Create a new branch named feature-test, make one commit on it, and merge it back to the main branch. Write the commands you used
 
-https://github.com/Priyanshiba27/SE_WORKSPACE/tree/feature-test
+1. Created branch feature-test using GitHub Desktop.
+
+2. Modified a file and committed the changes to feature-test.
+
+3. Switched to main branch.
+
+4. Merged feature-test into main using Branch → Merge into Current Branch.
+
+5. Pushed the updated main branch to GitHub.
+
