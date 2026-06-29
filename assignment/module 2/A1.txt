@@ -1,0 +1,42 @@
+A) Write a short paragraph in your own words defining what a 'program' is and give one real-life example from any app you use daily (like Instagram, Zomato, or Paytm).
+
+     A program is a set of instructions written in a programming language that tells a computer how to perform specific tasks. It helps devices and applications work correctly by processing user requests and giving the desired output. For example, when I use Zomato, the program shows nearby restaurants, displays menus, allows me to place an order, and tracks the delivery until the food reaches my location.
+
+
+
+B) List three popular programming languages you have heard of, and for each, mention whether it is usually compiled, interpreted, or can be both.
+
+1.  Python is usually an interpreted programming language, which means its code is executed line by line.
+
+2.  Java can be both compiled and interpreted because it is first compiled into bytecode and then executed by the Java Virtual Machine (JVM).
+
+3. JavaScript is usually an interpreted programming language, although modern browsers also use Just-In-Time (JIT) compilation to improve performance.
+
+
+
+C) Draw a flowchart (on paper or using any online tool) for the process of booking a movie ticket on BookMyShow, starting from opening the app to receiving the booking confirmation.
+
+file:///C:/Users/Dell%205420/Downloads/flowchart6.drawio.pdf
+
+
+
+
+D)Write down the steps (as an algorithm, using simple numbered instructions) for ordering food on Swiggy — from opening the app to completing payment.
+
+ 1. Start.
+2. Open the Swiggy app.
+3. Log in if required.
+4. Enter or confirm your delivery location.
+5. Search for a restaurant or food item.
+6. Select the restaurant.
+7. Choose the food items you want to order.
+8. Add the selected items to the cart.
+9. Review your order and click **Proceed to Checkout**.
+10. Select a payment method (UPI, card, wallet, or cash on delivery).
+11. Complete the payment.
+12. Receive the order confirmation.
+13. Stop.
+
+
+
+

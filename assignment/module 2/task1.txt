@@ -1,0 +1,181 @@
+1. Display This Information using printf
+a. Your Name
+b. Your Birth date
+c. Your Age
+d. Your Degree
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    printf("\n name : Priyanshiba Gohil");
+    printf("\n city : Rajkot");
+    printf("\n DOB : 27/11/05");
+    printf("\n Degree : BSc. Physics");
+
+    getch();
+    
+}
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+2. Write a program to make addition, Subtraction, Multiplication and Division of Two Numbers.
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{     
+     int a = 8;
+     int b = 4;
+
+    int add = a+b;
+    printf("\n Addition of two number is %d",add);
+    int sub = a-b;
+    printf("\n substraction of two number is %d",sub);
+    int mul = a*b;
+    printf("\n multiplication of two number is %d",mul);
+    int division = a/b;
+    printf("\n division of two number is %d",division);
+     int mod = a%b;
+    printf("\n modulus of two number is %d",mod);
+
+
+   getch();
+} 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+3. Write a program to make a square and cube of number. 
+
+ for make square :- 
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{     
+     int a = 8;
+     
+    int mul = a*a;
+    printf("\n square of given number is %d",mul);
+getch();
+} 
+
+
+For make cube :- 
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{     
+     int a = 8;
+     
+    int mul = a*a*a;
+    printf("\n cube of given number is %d",mul);
+getch();
+} 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Write a program to find the Area of Circle
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+  float pi = 3.14;
+  int r = 9;
+  
+ float ans = pi*r*r;
+ printf("area of circle is %f",ans);
+  
+  getch();
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+5. Write a program to find the Area of Triangle
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+  float C=0.5;
+  int a = 5;
+  int b = 6;
+  
+ float ans = C*a*b;
+ printf("area of trinagle is %f",ans);
+  
+
+
+ 
+    getch();
+}
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+6. Write a program to find the simple Interest.
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+  int P = 15000;
+  int R = 5;
+  int N = 3;
+  
+ int ans = (P*R*N)/100;
+ printf("Simple intrest of given value  is %d",ans);
+  
+
+
+ 
+    getch();
+}
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+7. Write a program to calculate sum of 5 subjects & find the percentage.
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{     
+     float a = 8;
+     float b = 4;
+     float c = 6;
+     float d = 5;
+     float e = 7; 
+
+      float add = a+b+c+d+e;
+    printf("/n sum is %f,add);
+
+
+   float pr = [(a+b+c+d+e)/5]*100;
+    printf("/n Percentage is %f",pr);
+  
+ getch();
+} 
+
+
+
+
+
+
