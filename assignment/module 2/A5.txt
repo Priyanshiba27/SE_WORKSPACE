@@ -1,0 +1,154 @@
+A) Create a simple IPL Fan Bot that takes your favorite IPL team name as input and uses if-else-if statements to print a unique cheer message for each team (e.g., 'Go Mumbai Indians!', 'Chennai Super Kings for the win!'). If the team is not recognized, print 'Team not found!'
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+        char team;
+        
+        printf("Enter Your Fav. Team : \n Press G for Gujrat Titans \n Press C for Chennai Super Kings  \n Press R for RCB");
+        scanf("%c",&team);
+
+        if(team=='G')
+        {
+            printf("Khandvi dhokla Khava de , IPL trophy aava de  !");
+        }
+         else if(team=='C')
+        {
+            printf("Chennai Super Kings for the win!");
+        }
+         else if(team=='R')
+        {
+            printf("Ye Sala cup namdu!!");
+        }
+        else
+        {
+            printf("Sorry team name not found");
+        }
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+B) Build a Zomato-style food suggestion tool: take the user's preferred meal time ('breakfast', 'lunch', 'dinner', or 'snack') and use a switch-case statement to suggest a popular dish for that time. If the input doesn't match any meal, suggest 'Try some fruits!'.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   int meal;
+   
+    printf("\n select your meal");
+    printf("\n According to your choice enter a no.");
+    printf("\n 1 for breakfast \n2 for lunch \n3 for snacks \n4 for dinner");
+ 
+    scanf("%d" , &meal);
+
+    switch(meal)
+    {
+        case 1: 
+         printf("You can try handvo , it's today's most wanted breakfast!");
+       break;
+	
+	 case 2: 
+         printf("You must try chhole kulche , it is our special item!");
+       break;
+
+	 case 3: 
+         printf("Have you ever try Tikha mora at here? , if not then try it now!");
+       break;
+
+	 case 4: 
+         printf("Nothing is refreshing except masala dosa !");
+       break;
+
+	defalut:
+ 	    printf("Try some fruits!");
+
+  }
+    getch();
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C) Create a Flipkart discount calculator that asks the user for the total cart amount. Use nested if statements to check: if amount > 2000, apply 20% discount; else if amount > 1000, apply 10% discount; else, no discount. Print the final amount to pay.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+	float amount;
+	float discount;
+	float Finalvalue;
+		printf( "Enter your Total cart amount" );
+		scanf("%f" , &amount);
+		
+    if (amount > 1000)
+    {
+        if (amount > 2000)
+        {
+            discount = amount * 20 / 100;
+        }
+        else
+        {
+            discount = amount * 10 / 100;
+        }
+    }
+    else
+    {
+        discount = 0;
+    }
+
+    Finalvalue = amount - discount;
+
+    printf("\nTotal Amount : %f", amount);
+    printf("\n Applied Discount Value    : %f", discount);
+    printf("\nFinal Value to Pay: %f", Finalvalue);
+
+    getch();
+}
+	
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+D) Write a program that takes a user's age and checks eligibility for three things using if-else statements: if age >= 18, print 'Eligible for Driving License'; if age >= 21, also print 'Eligible for Credit Card'; if age >= 25, also print 'Eligible for Car Rental'. Print all applicable messages for the given age.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{ 
+  int age;
+  printf("Enter your age :");
+  sacnf("%d" ,&age );
+
+   if(age>=18)
+       {
+           printf("Eligible For driving license");
+       }
+       else
+       {
+           printf("Not Eligible For driving license");
+       }
+
+    if (age >=21)
+      {
+           printf("Eligible For Credit Card");
+       }
+       else
+       {
+           printf("Not Eligible For Credit Card");
+       }
+
+   if (age >=25)
+      {
+           printf("Eligible For Car Rental ");
+       }
+       else
+       {
+           printf("Not Eligible For Car Rental");
+       }
+
+  getch();
+}
+    
+
+	

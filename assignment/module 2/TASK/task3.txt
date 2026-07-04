@@ -1,0 +1,20 @@
+A) How to swap two variables without using third variable?
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+ {
+  int a = 12;
+  int b = 6;
+
+  printf("\n before value of a is %d " ,a);
+  printf("\n before value of b is %d " ,b);
+   
+   a-=b;
+   printf("\n after value of a is  %d" ,a);
+
+   b+=a;
+   printf("\n after value of b is  %d" ,b);
+ 
+   getch();
+}

@@ -165,11 +165,11 @@ void main()
      float e = 7; 
 
       float add = a+b+c+d+e;
-    printf("/n sum is %f,add);
+    printf("\n sum is %f",add);
 
 
-   float pr = [(a+b+c+d+e)/5]*100;
-    printf("/n Percentage is %f",pr);
+   float pr = ((a+b+c+d+e)/50)*100;
+    printf("\n Percentage is %f",pr);
   
  getch();
 } 
