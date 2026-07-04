@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 A) Declare variables for a Flipkart product: productName (as a string), price (float), and rating (double). Assign sample values and print each variable with its data type.
 
 #include <stdio.h>
@@ -68,3 +69,75 @@ D) Identify and correct the invalid variable names from this list: 1stPlayer, pl
 →total-marks is written as total_marks.
 →username is right. 
 
+=======
+A) Declare variables for a Flipkart product: productName (as a string), price (float), and rating (double). Assign sample values and print each variable with its data type.
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    char productname[] = "Smartwatch";
+    float price = 5000.50;
+    double rating = 4.5;
+    
+    printf(" Product name is : %s\n", productname);
+    printf(" price is : %f\n", price);
+    printf(" Rating is : %lf\n", rating);
+
+
+     getch();
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+B) Create a constant variable to store the GST rate (for example, 18%) and use it to calculate the final price of a Zomato order with a given base price.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{     
+    const float GST = 18;
+    float baseprice = 300;
+    float gstamount = (baseprice * GST) / 100;
+    float finalprice = baseprice + gstamount;
+    
+    printf("\n GST is : %f" , GST);
+    printf("\n Base price is : %f" , baseprice);
+    printf("\n GST amount is : %f" , gstamount);
+    printf("\n Final Price is : %f" , finalprice);
+    
+     getch();
+    
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+C) Write a program that stores your favorite Spotify playlist's name (string), total number of songs (int), and average song duration in minutes (float). Print all values in a single formatted sentence.
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    char playlistName[] = "Sometime..";
+    int totalSongs = 50;
+    float avgDuration = 3.8;
+
+    printf("My favorite Spotify playlist is \"%s\", which has %d songs with an average duration of %f minutes each.",
+           playlistName, totalSongs, avgDuration);
+
+    getch();
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+D) Identify and correct the invalid variable names from this list: 1stPlayer, player_age, $score, total-marks, userName.
+
+→1st player is written as first player.
+→player_age is right.
+→$score is written  as score 
+→total-marks is written as total_marks.
+→username is right. 
+
+>>>>>>> ad2c03fcf426ad6965c192176cf7416843e2c39f
