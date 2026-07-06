@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+       int Pizza = 1;
+       int Burger = 1;
+       int Coffee = 0;
+       int amount = 0;
+       
+        if (Pizza > 0);
+        {
+            amount = amount + (Pizza*100);
+        }
+        if (Burger > 0);
+        {
+             amount = amount + (Burger*70);
+        }
+        if (Coffee > 0); 
+        {
+             amount = amount + (Coffee*120);
+        }
+        
+         printf("\nTotal Amount = %d", amount);
+      
+       getch();
+}
