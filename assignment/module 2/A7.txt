@@ -22,31 +22,103 @@ int main()
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2. Build a right-angled triangle pattern using nested loops, where each row displays increasing numbers starting from 1, similar to how a leaderboard on a gaming app shows rank numbers.
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3. 
-
-
-
-#include <stdio.h>
+#include<stdio.h>
 
 int main()
 {
-    int i, j;
-
-    for(i=1;i<=6;i++)
+    
+    for(int i=1;i<=5;i++)
     {
-        for(j=6;j>i;j--)
+        
+        for(int j=1;j<=i;j++)
+        {
+             printf("%d",j);
+        }
+        
+       printf("\n");
+    }
+
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. Create a pattern that prints a pyramid of stars (*) with 6 rows, centered like the loading animation you see on BookMyShow when a page is loading
+
+#include<stdio.h>
+
+int main()
+{
+    
+    for(int i=1;i<=6;i++)
+    {
+        for(int space=1;space<=6-i;space++)
         {
             printf(" ");
         }
         
-         for(j=1;j<=(2*i-1);j++)
+        for(int j=1;j<=i;j++)
         {
-            printf("*");
+             printf("* ");
         }
+        
+       printf("\n");
+    }
 
+    return 0;
+}
+
+--------------------------------------------------------------------------------------------------------
+4. Write code using nested loops to print a pattern of alternating 0s and 1s in a grid, like the checkered background seen in some Spotify playlist covers (e.g., for a 4x4 grid, alternate 0 and 1 in each cell).
+
+#include <stdio.h>
+
+int main() 
+{
+        
+   for (int i=1;i<=4;i++) 
+    {
+        for (int j=1;j<=4;j++) 
+        {
+            
+            if ((i+j)%2==0) 
+            {
+                printf("1");
+            } else 
+            {
+                printf("0");
+            }
+        }
         printf("\n");
+    }
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------------------------
+5. Modify your pyramid pattern code to accept the number of rows as user input, so the user can set the height of the pyramid before printing.
+
+#include<stdio.h>
+
+int main()
+{
+    int rows;
+	
+	printf("enter number of rows that you want");
+        scanf("%d" ,&rows)
+   
+
+     for(int i=1;i<=rows;i++)
+    {
+        for(int space=1;space<=rows-i;space++)
+        {
+            printf(" ");
+        }
+        
+        for(int j=1;j<=i;j++)
+        {
+             printf("😸 ");
+        }
+        
+       printf("\n");
     }
 
     return 0;
