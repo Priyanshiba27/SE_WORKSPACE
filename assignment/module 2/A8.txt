@@ -109,7 +109,59 @@ int main()
 
 
 4. Build a function formatPrice that takes a price in rupees and returns a string formatted like Flipkart's price tag (e.g., '₹1,599'). Use this function to display prices for three different products.
-  
+
+#include <stdio.h>
+
+char* formatPrice(int price)
+{
+    static char result[20];
+
+    sprintf(result, "₹%d", price);
+
+    return result;
+}
+
+int main()
+{
+    int price1 = 1599;
+    int price2 = 2499;
+    int price3 = 799;
+
+    printf("Product 1 Price: %s\n", formatPrice(price1));
+    printf("Product 2 Price: %s\n", formatPrice(price2));
+    printf("Product 3 Price: %s\n", formatPrice(price3));
+
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+5. Refactor an existing function you wrote above to make it reusable for both product names and usernames (for example, a function that capitalizes the first letter of any string).  
+
+#include <stdio.h>
+
+void capitalizeFirst(char str[])
+{
+    if (str[0] >= 'a' && str[0] <= 'z')
+    {
+        str[0] = str[0] - 32;
+    }
+}
+
+int main()
+{
+    char product[] = "laptop";
+    char username[] = "priyanshiba";
+
+    capitalizeFirst(product);
+    capitalizeFirst(username);
+
+    printf("Product Name: %s\n", product);
+    printf("Username: %s\n", username);
+
+    return 0;
+}
 
 
 
