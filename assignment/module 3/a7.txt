@@ -1,0 +1,139 @@
+1.Create a text file called my_fav_songs.txt and write the names of your 5 favorite songs into it using ofstream.
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+    ofstream file("my_fav_songs.txt");
+
+    file << "Tum Hi Ho" << endl;
+    file << "Kesariya" << endl;
+    file << "Chaleya" << endl;
+    file << "Apna Bana Le" << endl;
+    file << "Agar Tum Saath Ho" << endl;
+
+    file.close();
+
+    return 0;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2.Read all song names from my_fav_songs.txt using ifstream and display each song on a new line in the console.
+
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+    ifstream file("my_fav_songs.txt");
+
+    string song;
+
+    while (getline(file, song))
+    {
+        cout << song << endl;
+    }
+
+    file.close();
+
+    return 0;
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.Modify your code to append a new song name entered by the user to my_fav_songs.txt without overwriting the existing list.<br><br><em><strong>Hint:</strong> Open the file in append mode using ofstream.</em>
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+    string song;
+
+    cout << "Enter a new song: ";
+    getline(cin, song);
+
+    ofstream file("my_fav_songs.txt", ios::app);
+
+    file << song << endl;
+
+    file.close();
+
+    return 0;
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4.Build a Flipkart-style wishlist tracker: ask the user to enter 3 product names and prices, save them to a file called wishlist.txt, then read the file and display each product with its price.
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+    ofstream file("wishlist.txt");
+
+    string product;
+    float price;
+
+    for (int i = 1; i <= 3; i++)
+    {
+        cout << "Enter product name: ";
+        getline(cin, product);
+
+        cout << "Enter price: ";
+        cin >> price;
+        cin.ignore();
+
+        file << product << " - " << price << endl;
+    }
+
+    file.close();
+
+    ifstream readFile("wishlist.txt");
+
+    string line;
+
+    cout << "\nWishlist:\n";
+
+    while (getline(readFile, line))
+    {
+        cout << line << endl;
+    }
+
+    readFile.close();
+
+    return 0;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5.Given a file called insta_followers.txt containing Instagram usernames (one per line), write a program to count and display the total number of followers listed in the file.<br><br><em><strong>Constraint:</strong> Do not use any array or vector to store the names—just count as you read.</em>
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+    ifstream file("insta_followers.txt");
+
+    string username;
+    int count = 0;
+
+    while (getline(file, username))
+    {
+        count++;
+    }
+
+    cout << "Total followers: " << count << endl;
+
+    file.close();
+
+    return 0;
+}
