@@ -187,7 +187,7 @@ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
 C Version Problem	
 
-1. We need separate arrays for task names and their status.	
+ss1. We need separate arrays for task names and their status.	
 2. Functions and data are separate, so managing many tasks becomes harder.	
 3. Adding and managing many tasks requires more manual code.	
 
